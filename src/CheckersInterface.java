@@ -13,12 +13,12 @@ public class CheckersInterface extends FrameWindowController implements FakeButt
     private FilledRect player1Highlight,player2Highlight;
     private Text player1Text,player2Text;
     private boolean playerTurn;
-    //private CheckerBoard board;
+    private CheckerBoard board;
     //private Color highlightTurn;
     public void createInterface()
     {   
-        //board = new CheckerBoard();
-        //board.createBoard();
+        board = new CheckerBoard();
+        board.createBoard(canvas);
         player1Frame = new FramedRect(250,50,100,50,canvas);
         player2Frame = new FramedRect(250,100,100,50,canvas);
         
