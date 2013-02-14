@@ -47,6 +47,11 @@ public class Checker
 		return other.getTeam() != this.team;
 	}
 	
+	public void setColor(Color color)
+	{
+		checker.setColor(color); 
+	}
+	
 	public int getX()
 	{
 		return x;
