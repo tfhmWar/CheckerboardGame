@@ -1,5 +1,5 @@
-
 /**
+ * WORKS IN CORRESPONDENCE WITH CheckerBoard.java, Checker.java, and testChecker.java
  * This class takes in the Checkerboard class and will create the checker pieces 
  * on the corresponding squares. 12 blue checkers placed on top and 12 green 
  * checkers on the bottom. 
